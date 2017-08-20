@@ -21,6 +21,10 @@ Public Class HomeController
         Return View()
     End Function
 
-
+    Public Function [Error]() As IActionResult
+        Return View(New ErrorViewModel() With {
+            .RequestId = If(Activity.Current.Id, HttpContext.TraceIdentifier)
+        })
+    End Function
 
 End Class
