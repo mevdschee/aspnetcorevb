@@ -16,11 +16,6 @@ Public Class Startup
 
     ' This method gets called by the runtime. Use this method to add services to the container.
     Public Sub ConfigureServices(ByVal services As IServiceCollection)
-        'services.AddAuthentication("Cookies").AddCookie(Function(options)
-        '                                                    options.AccessDeniedPath = "/Account/Forbidden/"
-        '                                                    options.LoginPath = "/Account/SignIn/"
-        '                                                    Return options
-        '                                                End Function)
         services.AddMvc()
     End Sub
 
@@ -35,7 +30,7 @@ Public Class Startup
         End If
 
         app.UseStaticFiles()
-        'app.UseAuthentication()
+
         app.UseMvc(Function(routes)
                        routes.MapRoute(name:="default", template:="{controller=Home}/{action=Index}/{id?}")
                        Return routes
