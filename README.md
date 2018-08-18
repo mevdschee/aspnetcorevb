@@ -1,6 +1,6 @@
 # aspnetcorevb
 
-Using the example "ASP.Net Core Web Application" in Visual Basic (.Net core 2.1).
+Ported the example "ASP.Net Core Web Application" from C# to Visual Basic (for DotNet Core 2.1).
 
 When you run this code using 'dotnet run' you will encounter:
 
