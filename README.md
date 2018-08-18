@@ -1,6 +1,6 @@
 # aspnetcorevb
 
-Ported the example "ASP.Net Core Web Application" from C# to Visual Basic (for DotNet Core 2.1).
+ported the example "ASP.Net Core Web Application" from C# to VB. It is (successfully) using Razor .cshtml files in a VB project. I have ensured it is compatible with ASP.Net Core 2.1.
 
 When you run this code using 'dotnet run' you will encounter:
 
