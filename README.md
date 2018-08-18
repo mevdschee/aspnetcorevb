@@ -1,6 +1,6 @@
-# aspnetcore2-vb-template
+# aspnetcorevb
 
-Example for using ASP.net Core 2.0 in Visual Basic.
+Example for using ASP.net Core 2.1 in Visual Basic.
 
 When you run this code using 'dotnet run' you will encounter:
 
@@ -23,7 +23,7 @@ Due to the file 'bin/Debug/netcoreapp2.0/App.deps.json' having:
       },
       "compilationOptions": {
         "defines": [
-          ",NETCOREAPP2_0"
+          ",NETCOREAPP,NETCOREAPP2_1"
 
 Replace that leading comma in the last line and run again with 'dotnet run'.
 

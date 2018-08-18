@@ -1,14 +1,13 @@
-Imports System
-Imports System.IO
 Imports Microsoft.AspNetCore
 Imports Microsoft.AspNetCore.Hosting
 
 Module Program
+
     Sub Main(args As String())
-        BuildWebHost(args).Run()
+        CreateWebHostBuilder(args).Build().Run()
     End Sub
 
-    Function BuildWebHost(args As String()) As IWebHost
-        Return WebHost.CreateDefaultBuilder(args).UseStartup(Of Startup).Build()
+    Function CreateWebHostBuilder(args As String()) As IWebHostBuilder
+        Return WebHost.CreateDefaultBuilder(args).UseStartup(Of Startup)
     End Function
 End Module
