@@ -24,6 +24,6 @@ Due to the file 'bin/Debug/netcoreapp2.1/App.deps.json' having:
         "defines": [
         ",NETCOREAPP,NETCOREAPP2_1"
 
-REMOVE ",NETCOREAPP," (including the commas) in the last line and run again with 'dotnet run'.
+Remove `,NETCOREAPP,` (including the commas) in the last line and run again with 'dotnet run'.
 
 Other than that it seems to work with cshtml, as there seems to be no vbhtml support yet.
