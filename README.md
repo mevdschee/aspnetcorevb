@@ -1,4 +1,4 @@
-# ASP.Net Core Web Application example in Visual Basic
+# ASP.Net Core Web Application in Visual Basic
 
 ported the example "ASP.Net Core Web Application" from C# to VB. It is (successfully) using Razor .cshtml files in a VB project. I have ensured it is compatible with ASP.Net Core 2.1.
 
