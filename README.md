@@ -16,13 +16,13 @@ When you run this code using 'dotnet run' you will encounter:
 Due to the file 'bin/Debug/netcoreapp2.1/App.deps.json' having:
 
     {
-    "runtimeTarget": {
-        "name": ".NETCoreApp,Version=v2.1",
-        "signature": "8d19439ef22c432fe18f0eac697c8789fe30c00a"
-    },
-    "compilationOptions": {
-        "defines": [
-        ",NETCOREAPP,NETCOREAPP2_1"
+        "runtimeTarget": {
+            "name": ".NETCoreApp,Version=v2.1",
+            "signature": "8d19439ef22c432fe18f0eac697c8789fe30c00a"
+        },
+        "compilationOptions": {
+            "defines": [
+            ",NETCOREAPP,NETCOREAPP2_1"
 
 Remove `,NETCOREAPP,` (including the commas) in the last line and run again with 'dotnet run'.
 
